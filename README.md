@@ -18,19 +18,30 @@ Berdasarkan dashboard interaktif yang telah disusun, berikut adalah beberapa tem
 2. **Perbandingan Penjualan vs Pendapatan**:
 - Kategori **cama_mesa_banho** tertinggi dalam jumlah unit yang terjual. 
 - Berdasarkan grafik, **beleza_saude** adalah kategori dengan pendapatan tertinggi. Hal ini mengindikasikan produk yang paling banyak terjual ternyata tidak selalu menghasilkan pendapatan paling banyak.
-
 ## Cara Menjalankan Notebook dan Dashboard
 
-### 1. Menjalankan Notebook (.ipynb)
-- Pastikan library `pandas`dan `matplotlib` telah terinstal.
+### 1. Clone Repository
+Pastikan Anda sudah menginstal Git di komputer Anda, lalu jalankan perintah berikut di terminal/command prompt:
+```bash
+git clone https://github.com/malisyahnadya/StudyCase-Recruitment-GDG
+cd nama-repositori
+```
+
+
+### 2. Menjalankan Notebook (.ipynb)
+- Pastikan library `pandas` dan `matplotlib` telah terinstal.
 - Jalankan file notebook analisis langkah demi langkah untuk melihat proses pengolahan data.
 
-### 2. Menjalankan Dashboard Streamlit (Lokal)
-Pastikan file `dashboard.py`, `data_ecommerce.csv`, dan `requirements.txt` berada dalam folder yang sama:
+### 3. Menjalankan Dashboard Streamlit (Lokal)
+Pastikan file `dashboard.py`, `data_ecommerce.csv`, dan `requirements.txt` berada dalam folder yang sama setelah berhasil dikloning:
+
 1. Instal library yang dibutuhkan:
-   ```bash
-   pip install -r requirements.txt
-   
+```bash
+pip install -r requirements.txt
+```
+
 2. Jalankan dashboard:
-   ```bash
-   streamlit run dashboard.py
+```bash
+streamlit run dashboard.py
+```
+
