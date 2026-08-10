@@ -36,11 +36,13 @@ cd StudyCase-Recruitment-GDG
 Pastikan file `dashboard.py`, `data_ecommerce.csv`, dan `requirements.txt` berada dalam folder yang sama setelah berhasil dikloning:
 
 1. Instal library yang dibutuhkan:
+   
 ```bash
 pip install -r requirements.txt
 ```
 
 2. Jalankan dashboard:
+   
 ```bash
 streamlit run dashboard.py
 ```
