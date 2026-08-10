@@ -24,7 +24,7 @@ Berdasarkan dashboard interaktif yang telah disusun, berikut adalah beberapa tem
 Pastikan Anda sudah menginstal Git di komputer Anda, lalu jalankan perintah berikut di terminal/command prompt:
 ```bash
 git clone https://github.com/malisyahnadya/StudyCase-Recruitment-GDG
-cd nama-repositori
+cd StudyCase-Recruitment-GDG
 ```
 
 
